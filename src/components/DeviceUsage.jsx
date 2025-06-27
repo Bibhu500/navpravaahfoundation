@@ -245,24 +245,24 @@ const DeviceUsage = ({ onClose }) => {
           </div>
 
           {/* Impact Statement */}
-          <div className="mt-16 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-xl p-8 text-center">
+          <div className="mt-16 bg-gradient-to-r from-orange-500 to-pink-600 text-white rounded-xl p-8 text-center">
             <div className="max-w-4xl mx-auto">
               <div className="flex justify-center mb-6">
-                <div className="bg-white bg-opacity-20 w-20 h-20 rounded-full flex items-center justify-center">
-                  <Heart className="text-white" size={36} />
+                <div className="bg-white bg-opacity-30 w-20 h-20 rounded-full flex items-center justify-center border-2 border-white border-opacity-40">
+                  <Heart className="text-pink-100" size={36} />
                 </div>
               </div>
               <h3 className="text-3xl font-bold mb-4">Every Device Creates Multiple Opportunities</h3>
-              <p className="text-xl mb-6 text-blue-100">
+              <p className="text-xl mb-6 text-orange-100">
                 Your single donation enables a student to learn 10+ different skills, help their entire community, 
                 and become a digital leader in rural India.
               </p>
-              <div className="bg-white bg-opacity-20 p-6 rounded-lg">
-                <p className="text-2xl font-semibold mb-2">
-                  "So every penny you donate is a breath of satisfaction"
+              <div className="bg-white bg-opacity-25 p-6 rounded-lg border border-white border-opacity-30">
+                <p className="text-2xl font-semibold mb-2 text-white">
+                  "Every act of kindness creates ripples of hope"
                 </p>
-                <p className="text-blue-100">
-                  Knowing that your device is empowering an entire generation of rural students to dream bigger and achieve more.
+                <p className="text-orange-100">
+                  Knowing that your device is empowering an entire generation of rural children to dream bigger and achieve more.
                 </p>
               </div>
             </div>
@@ -271,15 +271,15 @@ const DeviceUsage = ({ onClose }) => {
           {/* Stats */}
           <div className="mt-12 grid md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600">10+</div>
+              <div className="text-3xl font-bold text-orange-600">10+</div>
               <div className="text-gray-600">Skills per Student</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-600">5+</div>
+              <div className="text-3xl font-bold text-pink-600">5+</div>
               <div className="text-gray-600">Family Members Helped</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600">50+</div>
+              <div className="text-3xl font-bold text-red-600">50+</div>
               <div className="text-gray-600">Community Impact</div>
             </div>
             <div className="text-center">

@@ -42,9 +42,9 @@ const LandingPage = () => {
   };
 
   const stats = [
-    { label: "Devices Donated", value: "132", icon: Laptop },
-    { label: "Children Helped", value: "540+", icon: Users },
-    { label: "Villages Reached", value: "9", icon: MapPin }
+    { label: "Devices Donated", value: "17", icon: Laptop },
+    { label: "Children Helped", value: "50+", icon: Users },
+    { label: "Villages Reached", value: "4", icon: MapPin }
   ];
 
   const faqs = [
@@ -562,8 +562,8 @@ const LandingPage = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="bg-white bg-opacity-20 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <stat.icon size={36} className="text-white" />
+                <div className="bg-white bg-opacity-30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-white border-opacity-40">
+                  <stat.icon size={36} className="text-orange-500" />
                 </div>
                 <div className="text-4xl font-bold mb-2">{stat.value}</div>
                 <div className="text-orange-100 text-lg">{stat.label}</div>
